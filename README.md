@@ -23,11 +23,6 @@ This project demonstrates basic text preprocessing techniques on a small text co
 - Python 3.x  
 - Libraries: `nltk`, `spacy`
 
-Install dependencies:
-```bash
-pip install nltk spacy
-python -m spacy download en_core_web_sm
-
 Running the Script
 python text_preprocessing.py
 
@@ -36,3 +31,10 @@ News and social media related sample sentences are used.
 
 Output
 Shows tokenization, stemming, lemmatization, and stopword removal results for both NLTK and spaCy.
+
+Install dependencies:
+```bash
+pip install nltk spacy
+python -m spacy download en_core_web_sm
+
+
