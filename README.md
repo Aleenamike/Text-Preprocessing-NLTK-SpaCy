@@ -27,3 +27,12 @@ Install dependencies:
 ```bash
 pip install nltk spacy
 python -m spacy download en_core_web_sm
+
+Running the Script
+python text_preprocessing.py
+
+Example Corpus
+News and social media related sample sentences are used.
+
+Output
+Shows tokenization, stemming, lemmatization, and stopword removal results for both NLTK and spaCy.
